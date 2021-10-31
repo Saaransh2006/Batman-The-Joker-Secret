@@ -255,7 +255,7 @@ function setup() {
 }
 
 function draw() {
-    if(gameState === "loading" || gameState === "settings") {
+    if(gameState === "loading") {
         part1.show();
     }
     else {
@@ -494,8 +494,6 @@ function draw() {
         text("2. Select Batman's special weapon:",10,220);
         fill("red");
         text("3. My WhitehatJr Community Profile link:",10,440);
-        fill("purple");
-        text('4. Play "Batman: The Joker Rises":',10,580);
         fill("black");
         text("[Click the 'BACK' button on the top-right",1100,650);
         text(" of the screen after making the changes]",1100,680);
