@@ -1344,7 +1344,7 @@ function draw() {
                 text("Commisioner Gordon: Batman, there is a news coming that Deathstroke has returned, how's it possible? he was killed by you a MONTH BACK!!",10,60);
                 text("Batman: He wasn't killed by me Commissioner... Arthur, who was disguised as Robin, had shot him. At that time, I didn't know that he was not",10,90);
                 text("Richard.. and so I assumed that Deathstroke was dead. I am damn sure now that he wasn't killed.. instead The New Joker fooled all of us.",10,120);
-                text('Batman informs The New Robin about the threat. "We will take care of him. By the way, who the hell is this Deathstroke? And why are you so afraid',10,150);
+                text('Batman informs The New Robin about the threat. "We will take care of him. By the way, who is this Deathstroke? And why are you so afraid',10,150);
                 text('of him Batman?", she asks. Batman replies, "Deathstroke is someone from my past. Well, that is a long story, I will tell you some other day. For',10,180);
                 text("now, we should go and save the city!!",10,210);
                 text("Meanwhile, somewhere in South Korea..",10,240);
@@ -1372,7 +1372,7 @@ function draw() {
                 text("city. Before leaving, he told me your real name.  If you are reading this letter.. then you have probably killed me, Batman. You can take this",10,180);
                 text('letter as a warning.. because this time he will be more prepared.. He will RISE again.. He is coming Bruce.. your DEATH is coming.. HAHAHAHAHA!!!',10,210);
                 text('Told you I always have a backup plan!!"',10,240);
-                text('Batman calls The New Robin and informs her about the threat. "We will take care of him. By the way, who the hell is this Deathstroke? And why are',10,270);
+                text('Batman calls The New Robin and informs her about the threat. "We will take care of him. By the way, who is this Deathstroke? And why are',10,270);
                 text('you so afraid of him Batman?", she asks. Batman replies, "Deathstroke is someone from my past. Well, that is a long story, I will tell you some',10,300);
                 text('other day. For now, we should go and save the city!!"',10,330);
             }
