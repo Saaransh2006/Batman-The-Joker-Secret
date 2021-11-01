@@ -572,9 +572,9 @@ function draw() {
         text("Batman: Robin??? You are the new Joker? no no no..It's not possible..It's",800,485);
         text("a nightmare.",800,515);
         fill("red");
-        text("Joker(removes the voice changer device and returns to his original New Joker",800,545);
-        text("voice): NO! I am not him. I am not Richard Grayson, your Robin! I am his twin",800,575);
-        text("brother, Arthur Grayson!",800,605);
+        text("Joker(removes the voice changer device and returns to his original New",800,545);
+        text("Joker voice): NO! I am not him. I am not Richard Grayson, your Robin! I",800,575);
+        text("am his twin brother, Arthur Grayson!",800,605);
         text("Batman: Arthur? But Richard never told me about you. You are lying to me.",800,635);
         text("There's definitely a trick here.",800,665);
         text("Joker: NO!! Richard never told you the truth, but I will...",800,695);
