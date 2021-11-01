@@ -441,7 +441,7 @@ function draw() {
         sprite1.addImage(loading1);
         sprite1.lifetime = 3;
         sprite1.scale = 1.2;
-        var sprite8 = createSprite(695,580,80,25);
+        var sprite8 = createSprite(695,565,100,40);
         sprite8.lifetime = 2;
         sprite8.visible = false;
         if(mouseIsOver(sprite8)) {
