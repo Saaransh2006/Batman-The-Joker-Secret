@@ -555,7 +555,7 @@ function draw() {
         text("Recap:",800,50);
         textStyle(NORMAL);
         text("Batman, Gotham city's superhero killed the Joker, a psychotic villain, a",800,80);
-        text("few months back. In the present day, another joker suddenly appears on",800,110);
+        text("few months back. In the present day, a new joker suddenly appears on",800,110);
         text("the streets of Gotham and kidnaps Batman's adopted son and his partner,",800,140);
         text("Robin. Meanwhile, the people of Gotham start fighting each other just",800,170);
         text("because some trust Batman, while some don't. Batman faces The New",800,200);
