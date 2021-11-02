@@ -7,7 +7,7 @@ var bombImg2,batarangImg2,batman_specialSound,joker_specialSound,joker_specialAt
 var completed2,sprite9,bulletGroup,pause,resume,cloud1,cloud2,cloud3,cloud1S,cloud2S,cloud3S,sprite11,variable,youWin,image3,image5;
 var winImg,youLose,loseImg,impact,cloud4,cloud5,cloud6,cloud4S,cloud5S,cloud6S,jokerSpecialImg,explosion,newRobin,variable2,image2;
 var newRobinImg2,newRobinImg1,bullet1,bullet2,robinGunSound,outro_song2,endImg,variable4,sprite12,variable5,variable6,image6;
-var part1,profile;
+var part1,profile,settingspart1;
 
 function preload() {
     bgm1 = loadSound("sound/bgm1.mp3");
@@ -248,6 +248,9 @@ function setup() {
 
     profile = createInput("https://community.whitehatjr.com/profile/e834b39f-43e8-43d6-8900-e3094a440cfa");
     profile.position(50,470);
+    
+    settingspart1 = createInput("https://community.whitehatjr.com/project/9ac76715-f93d-4255-a5c0-96b549f4fa1d");
+    settingspart1.position(50,570);
 
     jokerBulletGroup = createGroup();
     jokerBulletGroup2 = createGroup();
@@ -267,6 +270,13 @@ function draw() {
     }
     else {
         profile.hide();
+    }
+    
+    if(gameState === "settings") {
+        settingspart1.show();
+    }
+    else {
+        settingspart1.hide();
     }
 
     if(batmanLife <= 25) {
@@ -494,6 +504,8 @@ function draw() {
         text("2. Select Batman's special weapon:",10,220);
         fill("red");
         text("3. My WhitehatJr Community Profile link:",10,440);
+        fill("purple");
+        text('4. Play "Batman: The Joker Rises":',10,540);
         fill("black");
         text("[Click the 'BACK' button on the top-right",1100,650);
         text(" of the screen after making the changes]",1100,680);
