@@ -1200,7 +1200,7 @@ function draw() {
         text("~ 'Enter' key to fire bullets (Primary attack) ",20,340);
         text("~ 'Shift' key to reload Batman's gun",20,390);
         text("~ 'Ctrl' (Control) key to block Joker's Primary attack",20,440);
-        text("~ 'Space' key to use Batarangs/Knives (Special attack)",20,490);
+        text("~ 'Space' key to use Batarangs/Bombs (Special attack)",20,490);
         fill("lightGreen");
         textStyle(BOLD);
         textFont("segoe print");
